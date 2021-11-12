@@ -1,4 +1,5 @@
 ---
+- name: Create Openstack infrastructure servers
 - hosts: control_node
   connection: local
   roles:

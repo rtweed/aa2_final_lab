@@ -1,14 +1,16 @@
 ===
 
-Final Lab
+AAP2 Final Lab
 
 === Overview
 
-New monolithic Ansible playbook, `main.yml` and supporting files  which is designed for teaching and training in refacoring and
-the use of roles, collections etc.
-Designed to replace the function of the old link:https://github.com/tonykay/bad-ansible[`bad-ansible`] with a different
-approach, i.e. start with a fully functional playbook and teardown and iteratively refactor.
+A series of reusable roles to:
 
+* Upgrade existing monolithic playbooks to multi tier deployment playbooks
+* Migrate playbooks from RHEL 7.x to RHEL 8.3.
+* Switch pgsql10 to pgsql12
+
+=== Parent Repository information
 
 ==== Quick Start
 

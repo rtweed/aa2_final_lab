@@ -1,5 +1,5 @@
 ---
-- name: Deploy, configure, and populate Postgres 12
+- name: Install, configure, and populate Postgresql12
   hosts: database_servers
   become: true
   gather_facts: false
