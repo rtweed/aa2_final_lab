@@ -1,4 +1,4 @@
-=== AAP2 Final Lab
+=== Advanced Deployment with Red Hat Ansible Automation Final Lab
 
 === Overview
 
