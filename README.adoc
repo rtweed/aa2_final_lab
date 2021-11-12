@@ -1,3 +1,7 @@
+===
+
+Final Lab
+
 === Overview
 
 New monolithic Ansible playbook, `main.yml` and supporting files  which is designed for teaching and training in refacoring and
