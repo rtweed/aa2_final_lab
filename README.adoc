@@ -1,6 +1,4 @@
-===
-
-AAP2 Final Lab
+=== AAP2 Final Lab
 
 === Overview
 
