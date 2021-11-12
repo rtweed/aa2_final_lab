@@ -34,11 +34,11 @@
         network: "{{ GUID }}-dev-network"
         AnsibleGroup: load_balancers
 
-tasks:
-  - name: Delete server instances
-    os_server:
-        name: "{{ __openstack_server.instance_name }}"
-        state: absent
-    loop: "{{ openstack_servers }}"
-    loop_control:
-        loop_var: __openstack_server
+  tasks:
+    - name: Delete server instances
+      os_server:
+          name: "{{ __openstack_server.instance_name }}"
+          state: absent
+      loop: "{{ openstack_servers }}"
+      loop_control:
+          loop_var: __openstack_server
